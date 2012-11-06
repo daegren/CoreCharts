@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5508F97E1648C22F000C7DF0 /* CCDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508F97D1648C22F000C7DF0 /* CCDataPoint.m */; };
+		5508F98A1648C362000C7DF0 /* CCPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508F9891648C362000C7DF0 /* CCPieChartView.m */; };
+		5508F98C1648C4AC000C7DF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5508F98B1648C4AC000C7DF0 /* UIKit.framework */; };
 		551964771648B69E005B639F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551964761648B69E005B639F /* Foundation.framework */; };
-		5519647C1648B69E005B639F /* CoreCharts.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5519647B1648B69E005B639F /* CoreCharts.h */; };
-		5519647E1648B69E005B639F /* CoreCharts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5519647D1648B69E005B639F /* CoreCharts.m */; };
 		551964861648B69F005B639F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551964851648B69F005B639F /* SenTestingKit.framework */; };
-		551964881648B69F005B639F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551964871648B69F005B639F /* UIKit.framework */; };
 		551964891648B69F005B639F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551964761648B69E005B639F /* Foundation.framework */; };
 		5519648C1648B69F005B639F /* libCoreCharts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551964731648B69E005B639F /* libCoreCharts.a */; };
 		551964921648B69F005B639F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 551964901648B69F005B639F /* InfoPlist.strings */; };
@@ -35,21 +35,22 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				5519647C1648B69E005B639F /* CoreCharts.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5508F97C1648C22F000C7DF0 /* CCDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDataPoint.h; sourceTree = "<group>"; };
+		5508F97D1648C22F000C7DF0 /* CCDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDataPoint.m; sourceTree = "<group>"; };
+		5508F9881648C362000C7DF0 /* CCPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPieChartView.h; sourceTree = "<group>"; };
+		5508F9891648C362000C7DF0 /* CCPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPieChartView.m; sourceTree = "<group>"; };
+		5508F98B1648C4AC000C7DF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		551964731648B69E005B639F /* libCoreCharts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoreCharts.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		551964761648B69E005B639F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5519647A1648B69E005B639F /* CoreCharts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreCharts-Prefix.pch"; sourceTree = "<group>"; };
-		5519647B1648B69E005B639F /* CoreCharts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreCharts.h; sourceTree = "<group>"; };
-		5519647D1648B69E005B639F /* CoreCharts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreCharts.m; sourceTree = "<group>"; };
 		551964841648B69F005B639F /* CoreChartsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreChartsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		551964851648B69F005B639F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		551964871648B69F005B639F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5519648F1648B69F005B639F /* CoreChartsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreChartsTests-Info.plist"; sourceTree = "<group>"; };
 		551964911648B69F005B639F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		551964931648B69F005B639F /* CoreChartsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreChartsTests.h; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				551964771648B69E005B639F /* Foundation.framework in Frameworks */,
+				5508F98C1648C4AC000C7DF0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +72,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				551964861648B69F005B639F /* SenTestingKit.framework in Frameworks */,
-				551964881648B69F005B639F /* UIKit.framework in Frameworks */,
 				551964891648B69F005B639F /* Foundation.framework in Frameworks */,
 				5519648C1648B69F005B639F /* libCoreCharts.a in Frameworks */,
 			);
@@ -79,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5508F97A1648C20B000C7DF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5508F97C1648C22F000C7DF0 /* CCDataPoint.h */,
+				5508F97D1648C22F000C7DF0 /* CCDataPoint.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5508F97F1648C236000C7DF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5508F9881648C362000C7DF0 /* CCPieChartView.h */,
+				5508F9891648C362000C7DF0 /* CCPieChartView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		551964681648B69D005B639F = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +122,7 @@
 			children = (
 				551964761648B69E005B639F /* Foundation.framework */,
 				551964851648B69F005B639F /* SenTestingKit.framework */,
-				551964871648B69F005B639F /* UIKit.framework */,
+				5508F98B1648C4AC000C7DF0 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,8 +130,8 @@
 		551964781648B69E005B639F /* CoreCharts */ = {
 			isa = PBXGroup;
 			children = (
-				5519647B1648B69E005B639F /* CoreCharts.h */,
-				5519647D1648B69E005B639F /* CoreCharts.m */,
+				5508F97F1648C236000C7DF0 /* Views */,
+				5508F97A1648C20B000C7DF0 /* Models */,
 				551964791648B69E005B639F /* Supporting Files */,
 			);
 			path = CoreCharts;
@@ -243,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5519647E1648B69E005B639F /* CoreCharts.m in Sources */,
+				5508F97E1648C22F000C7DF0 /* CCDataPoint.m in Sources */,
+				5508F98A1648C362000C7DF0 /* CCPieChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +417,7 @@
 				5519649A1648B69F005B639F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5519649B1648B69F005B639F /* Build configuration list for PBXNativeTarget "CoreChartsTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +426,7 @@
 				5519649D1648B69F005B639F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
