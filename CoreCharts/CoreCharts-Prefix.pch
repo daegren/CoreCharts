@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CoreCharts' target in the 'CoreCharts' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
